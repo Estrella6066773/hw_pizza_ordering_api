@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 // 数据库文件路径
-const dbPath = path.join(__dirname, 'database', 'pizza_orders.db');
+const dbPath = path.join(__dirname, 'database', 'database.db');
 
 // 确保数据库目录存在
 const dbDir = path.dirname(dbPath);

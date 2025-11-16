@@ -15,7 +15,7 @@ const createCustomer = (req, res) => {
     // 验证必填字段
     if (!name || !email || !phone || !address) {
         return res.status(400).json({
-            error: '所有字段都是必填的: name, email, phone, address'
+            error: '必填字段: name, email, phone, address'
         });
     }
 

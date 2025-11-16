@@ -15,7 +15,7 @@ const createPizza = (req, res) => {
     // 验证必填字段
     if (!name || !price || !size) {
         return res.status(400).json({
-            error: 'name, price, size 是必填字段'
+            error: '必填字段: name, price, size'
         });
     }
 

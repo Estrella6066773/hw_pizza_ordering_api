@@ -15,7 +15,7 @@ const createOrder = (req, res) => {
     // 验证必填字段
     if (!customer_id || !pizza_id || !quantity) {
         return res.status(400).json({
-            error: '所有字段都是必填的: customer_id, pizza_id, quantity'
+            error: '必填字段: customer_id, pizza_id, quantity'
         });
     }
 

@@ -2,6 +2,8 @@
 
 一个基于 Node.js 和 Express 构建的 RESTful API，用于管理披萨订购系统。该系统支持客户管理、披萨菜单管理和订单处理功能。
 
+#### 这份作业有使用ai进行勘误，小组成员都在过程中充分的学习了知识点，并且知道这份作业是如何构建并实现的。
+#### This assignment has utilized AI for proofreading. All group members have thoroughly studied the knowledge points throughout the process and understand how it was constructed and implemented.
 ## 功能特性
 
 - **客户管理**: 创建、查看、更新和删除客户信息
@@ -321,6 +323,3 @@ DELETE /api/orders/:id
 | 海鲜披萨 | 新鲜海鲜搭配特制酱料 | ¥18.99 | 中 |
 | 素食披萨 | 多种新鲜蔬菜搭配 | ¥13.99 | 中 |
 
-## 开发指南
-
-### 项目结构
